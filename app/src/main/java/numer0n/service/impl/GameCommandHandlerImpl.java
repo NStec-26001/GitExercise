@@ -6,7 +6,9 @@ import numer0n.service.CommandHandler;
 
 public class GameCommandHandlerImpl implements CommandHandler {
 
-    public GameCommandHandlerImpl() {}
+    public GameCommandHandlerImpl() {
+        
+    }
 
     @Override
     public String handle(String value) throws KeyNotFoundException {
